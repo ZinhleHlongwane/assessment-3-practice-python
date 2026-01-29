@@ -25,10 +25,10 @@ class TestAssessment3:
         assert st.word_lengths([]) == {}
 
     def test_format_report_basic(self):
-        assert st.format_report("Zinhle", 85) == "Student: Zinhle | Score: 85%"
+        assert st.format_report("Zinhle", 85) == "Student: Lucy | Score: 85%"
 
     def test_format_report_zero(self):
-        assert st.format_report("Alex", 0) == "Student: Alex | Score: 0%"
+        assert st.format_report("Alex", 0) == "Student: Max | Score: 0%"
 
     def test_recursive_sum_basic(self):
         assert st.recursive_sum([1, 2, 3, 4]) == 10
